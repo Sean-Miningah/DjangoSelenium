@@ -1,0 +1,65 @@
+1657887309352	geckodriver	INFO	Listening on 127.0.0.1:54081
+1657887309405	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyCQllz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657887312869	Marionette	INFO	Marionette enabled
+1657887312893	Marionette	INFO	Listening on port 33107
+Read port: 33107
+1657887313766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyCQllz/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 765))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1657887643711	geckodriver	INFO	Listening on 127.0.0.1:56317
+1657887643718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileknvTNO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657887668040	Marionette	INFO	Marionette enabled
+1657887668043	Marionette	INFO	Listening on port 36793
+Read port: 36793
+1657887674794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileknvTNO/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1657887701059	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1657887712272	Marionette	INFO	Stopped listening on port 33107
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1657887718226	Marionette	INFO	Stopped listening on port 36793
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 906: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Remote Settings profile-before-change","state":"Remaining: 5 callbacks (importJSONDump-main-search-telemetry-v2-4, importJSONDump-main-search-config-5, importJSONDump-blocklists-gfx-6, importJSONDump-main-url-classifier-skip-urls-8, importJSONDump-main-top-sites-10).","filename":"resource://services-settings/RemoteSettingsWorker.jsm","lineNumber":201,"stack":["resource://services-settings/RemoteSettingsWorker.jsm:null:201","resource://services-settings/RemoteSettingsClient.jsm:_importJSONDump:806","resource://services-settings/RemoteSettingsClient.jsm:get/this._importingPromise<:356","resource://services-settings/RemoteSettingsClient.jsm:get:371","resource://gre/modules/addons/XPIProvider.jsm:awaitPromise:220","resource://gre/modules/addons/XPIInstall.jsm:syncLoadManifest:780","resource://gre/modules/addons/XPIDatabase.jsm:addMetadata:2968","resource://gre/modules/addons/XPIDatabase.jsm:processFileChanges:3433","resource://gre/modules/addons/XPIProvider.jsm:checkForChanges:3065","resource://gre/modules/addons/XPIProvider.jsm:startup:2492","resource://gre/modules/AddonManager.jsm:callProvider:234","resource://gre/modules/AddonManager.jsm:_startProvider:542","resource://gre/modules/AddonManager.jsm:startup:748","resource://gre/modules/AddonManager.jsm:startup:3466","resource://gre/modules/addonManager.js:observe:78"]}] Barrier: profile-before-change
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1657887938351	geckodriver	INFO	Listening on 127.0.0.1:45431
+1657887938355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile2BzjrN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1657887940016	Marionette	INFO	Marionette enabled
+1657887940019	Marionette	INFO	Listening on port 42425
+Read port: 42425
+1657887940417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2BzjrN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
